@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6,
+#section7,
+#section8,
+#section9
+{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+h1,h2,h3,h4,h5,button{
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 800px){
+    h1,h2,h3,h4,h5{
+        font-size: x-large !important;
+    }
+    p{
+        font-size: medium !important;
+    }
+}
+
+#section1,
+#section3,
+#section5,
+#section7,
+#section9{
+    background-color: #dceee7;
+}
+
+#section2,
+#section4,
+#section6,
+#section8{
+    background-color: #5f7a72;
+}
+
+span{
+    color: #fff !important;
+    background-color: #2f5f51 !important;
+    padding: 5px !important;
+}
+
+.main1{
+    width: 90% !important;
+    margin: auto !important;
+}
+
+.nav-item,.navbar-brand{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.navbar-brand{
+    font-size: 2em !important;
+}
+
+.nav-link,.navbar-brand{
+    color: #2f5f51 !important;
+}
+
+@media only screen and (min-width:768px){
+    /* .navbar-nav{
+        margin-left: 50em;
+    } */
+
+    .nav-item{
+        margin-right: 40px;
+    }
+}
+
+
+.main1{
+    text-align: center;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.main1 img{
+    height: 290px;
+    width: 295px;
+    border-radius: 50%;
+    border: 4px solid #90b1a7;
+    padding: 2px;
+}
+
+.main1 h1{
+    color: #2f5f51;
+    font-weight: 1000;
+    font-size: 5em;
+}
+
+.main1 p{
+    color: #2f5f51;
+    text-align: center;
+    font-size: larger;
+}
+
+
+/* Section 2 */
+
+
+.gallery2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+}
+
+@media only screen and (max-width:1200px){
+  #section2 .gallery2{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .item{
+      padding: 10px;
+      margin: auto;
+  }
+ } 
+
+#section2{
+    width: 100%;
+    margin: auto;
+}
+
+#section2 .info2{
+    width: 80%;
+    padding: 70px 0 !important;
+    margin: auto;
+}
+
+.info2 h1{
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+#section2 .row{
+    width: 99%;
+    margin: auto;
+}
+/* 
+#section2 .row .col-sm-4 {
+
+} */
+
+.gallery1 img{
+    text-align: center;
+}
+
+#section2 h1,
+#section2 p{
+    color: #fff;
+    text-align: center;
+}
+#section2 p{
+    font-size: larger;
+
+}
+
+#section2 h3{
+    color: #fff;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+/* Section 3 */
+
+#section3{
+    background-image: url('https://image.freepik.com/free-photo/pretty-woman-doing-yoga-long-shot_23-2148264844.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info3{
+    padding-top: 70px;
+}
+
+#section3 h1,
+#section3 p{
+    color: #2f5f51;
+    font-weight: 900;
+    text-align: center;
+}
+
+#section3 h3{
+    text-align: center;
+}
+
+#section3 .col-sm-3{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #2f5f51;
+    margin: 70px auto !important;
+    width: 30%;
+    margin: 10px;
+}
+
+#section3 .row{
+    width: 90%;
+    margin: auto;
+}
+
+#section3 .col-sm-3{
+    margin: auto;
+}
+
+#section3 .col-sm-3 h3{
+    font-weight: 900;
+    color: #2f5f51;
+}
+#section3 p{
+    font-size: larger;
+    text-align: center;
+}
+    
+
+
+
+/* Section 4 */
+
+#section4 .info4{
+   margin: auto;
+   margin-top: 50px !important;
+   padding: 40px;
+}
+
+#section4 .info4 h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+#section4 .info4 p{
+    color: #fff;
+}
+
+#section4 button{
+    padding: 10px 20px;
+    outline: none;
+    background-color: #fff;
+    color: #2f5f51;
+    border: none;
+    font-weight: 900;
+    outline: none;
+    border-radius: 2px;
+}
+
+#section4 .fix{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width:900px){
+    #section4 .fix{
+        display: grid;
+        grid-gap: 2em;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #section4 .fix .img{
+        padding: 30px;
+    }
+    #section4 .fix .img img{
+        height: 400px !important;
+    }
+
+
+}
+
+
+
+/* Section 5 */
+#section5 .row{
+   padding-top: 100px;
+   width: 90%;
+   margin: auto;
+}
+
+#section5 .row .col-sm-6 h1{
+    font-size: 3em;
+    font-weight: 900;
+}
+
+#section5 button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #2f5f51;
+    font-weight: 900;
+    border: none;
+    outline: none;
+}
+
+#section5 .row .col-sm-6 h1,p{
+    color: #2f5f51;
+}
+
+.info5{
+    padding: 40px;
+}
+
+
+/* sECTION6 */
+
+
+#section6{
+    width: 90%;
+    margin: auto;
+}
+
+
+.gallery3{
+    width: 90%;
+    margin: auto;
+}
+
+
+.info6{
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+#section6 .info6 h1,
+#section6 .info6 p{
+    color: #fff;
+    text-align: center;
+}
+
+#section6 h1{
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+}
+
+.gallery3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+    padding-bottom: 40px;
+}
+
+
+.item3{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.item3 button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #2f5f51;
+    font-weight: 900;
+    border: none;
+    outline: none;
+}
+
+#section6 .gallery .item3 h3,p{
+    color: #2f5f51;
+}
+
+#section6 h3{
+    color: #2f5f51;
+    font-size: 900;
+}
+
+@media only screen and (max-width:900px){
+    .gallery3{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2em;
+    }
+
+    .item3{
+        width: 70%;
+        margin: auto;
+    }
+    
+}
+
+
+
+/* Section7 */
+
+#section7{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.info7{
+    padding: 100px 0;
+    width: 90%;
+    margin: auto;
+}
+
+.info7 p{
+    margin-top: 40px;
+    font-size: 2.8em;
+    color: #2f5f51;
+}
+
+@media only screen and (max-width:1100px){
+    .info7 p{
+        font-size: x-large;
+    }
+}
+
+
+
+/* Section 8 */
+
+#section8 .info8 h1{
+    font-weight: 900;
+    font-size: 3em;
+}
+
+#section8 .info8{
+    width: 80%;
+    margin: auto;
+    padding: 70px 0;
+    color: #fff;
+    text-align: center;
+}
+
+#section8 form{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#section8 form input[type="text"]{
+    width: 300px;
+    padding: 10px;
+    font-size: large;
+    outline: none;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    margin: 0;
+}
+
+#section8 form button{
+    padding: 10px 20px;
+    font-weight: 900;
+    color: #2f5f51;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+
+
+/* Section 9 */
+
+#section9 .row{
+    width: 95%;
+    margin: auto;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #2f5f51;
+
+}
+
+ul li a:hover{
+    text-decoration: none;
+    font-weight: 700;
+    color: #2f5f51;
+}
