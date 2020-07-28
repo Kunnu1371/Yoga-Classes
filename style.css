@@ -93,6 +93,16 @@ span{
     text-align: center;
 }
 
+.main1 button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: #2f5f51;
+    color: white;
+    letter-spacing: .2em;
+    border-radius: 2px;
+}
+
 .main1 img{
     height: 290px;
     width: 295px;
